@@ -34,7 +34,8 @@ def main():
 
     # Make a tkinter.Canvas on a Frame.
     # Note that Canvas is a tkinter (NOT a ttk) class.
-    canvas = tkinter.Canvas(main_frame, background='lightgray')
+    canvas = tkinter.Canvas(main_frame, background='lightgray', width=800,
+                            height=600)
     canvas.grid()
 
     # Make callbacks for mouse events.
